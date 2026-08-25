@@ -68,7 +68,7 @@ article hr { margin: 72px 0 48px; border: 0; }
 .faq-category h2 { margin: 0 0 14px; }
 .faq-item { border-top: 1px solid var(--line); }
 .faq-item:last-child { border-bottom: 1px solid var(--line); }
-.faq-item summary { position: relative; padding: 19px 42px 19px 0; color: var(--ink); font-weight: 700; cursor: pointer; list-style: none; }
+.faq-item summary { position: relative; padding: 19px 42px 19px 0; color: var(--ink); font-weight: 400; cursor: pointer; list-style: none; }
 .faq-item summary::-webkit-details-marker { display: none; }
 .faq-item summary::after { content: "+"; position: absolute; right: 4px; top: 15px; color: var(--accent); font-size: 1.35rem; font-weight: 400; line-height: 1; }
 .faq-item[open] summary::after { content: "−"; }
