@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="LUMO help and frequently asked questions">
+  <title>LUMO · Help</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="shell document">
+    <header class="document-header">
+      <div class="eyebrow">LUMO HELP</div>
+      <h1>Get Help</h1>
+      <p class="faq-intro">Find answers to common questions about editing, exporting, AI, privacy, subscriptions, and purchases. Select a question to expand its answer.</p>
+    </header>
+
+    <div class="faq-list">
+      <section class="faq-category" aria-labelledby="editing-title">
+        <h2 id="editing-title">Editing &amp; Export</h2>
+        <div class="faq-item"><details><summary>Why does my exported image have a watermark?</summary><div class="faq-answer"><p>The watermark option was enabled when you exported the image. Turn off “Watermark” in the export panel to remove it from future exports.</p></div></details></div>
+        <div class="faq-item"><details><summary>Why is my exported image not actually 8K when I selected 8K export?</summary><div class="faq-answer"><p>Some devices cannot fully process 8K images because of available memory and hardware limits. To avoid crashes or termination by the system, LUMO may automatically limit the maximum export resolution based on device performance.</p></div></details></div>
+        <div class="faq-item"><details><summary>Why do I not see the histogram after turning it on?</summary><div class="faq-answer"><p>The histogram appears only when an editing panel is expanded. After enabling it, expand any editing panel to view the histogram.</p></div></details></div>
+        <div class="faq-item"><details><summary>Can I adjust the strength of a filter or LUT?</summary><div class="faq-answer"><p>Yes. Select a filter or LUT, then tap the currently selected filter or LUT again to adjust its strength.</p></div></details></div>
+        <div class="faq-item"><details><summary>Does LUMO support RAW editing?</summary><div class="faq-answer"><p>LUMO can currently read and edit RAW files, but it does not yet provide a complete high-bit-depth RAW processing workflow. As a result, it may not fully preserve all of the image quality and dynamic range of a RAW file. We plan to improve RAW support.</p></div></details></div>
+        <div class="faq-item"><details><summary>Why does the exported photo look slightly different from the editing preview?</summary><div class="faq-answer"><p>Differences in screen display, color management, image format, and the way other apps render images can cause slight variations in color or brightness after export.</p></div></details></div>
+        <div class="faq-item"><details><summary>Why does exporting the same photo in 8K take much longer than in 4K?</summary><div class="faq-answer"><p>Higher-resolution exports process more pixels and therefore use more memory and computing resources. The difference can be more noticeable when complex masks, filters, or local adjustments are applied.</p></div></details></div>
+        <div class="faq-item"><details><summary>Why does LUMO use more memory or make my device warm during export?</summary><div class="faq-answer"><p>High-resolution processing, AI masks, and complex edits use more CPU, GPU, and memory resources. It is normal for a device to become temporarily warm while processing or exporting a large photo.</p></div></details></div>
+      </section>
+
+      <section class="faq-category" aria-labelledby="ai-title">
+        <h2 id="ai-title">AI &amp; Privacy</h2>
+        <div class="faq-item"><details><summary>Does LUMO upload my photos?</summary><div class="faq-answer"><p>No. LUMO processes and analyzes photos locally on your device. We do not upload your photos to our servers or use them to train AI models.</p></div></details></div>
+        <div class="faq-item"><details><summary>Does LUMO modify my original photos?</summary><div class="faq-answer"><p>No. LUMO uses non-destructive editing, so editing does not modify your original photo. A new image containing the edits is created only when you explicitly export it.</p></div></details></div>
+        <div class="faq-item"><details><summary>Why can’t some photos use the person, sky, or subject masks?</summary><div class="faq-answer"><p>Person, sky, and subject masks rely on on-device image recognition. If the subject is very small, blurry, heavily obscured, or otherwise complex, it may not be recognized correctly or the mask may be less accurate.</p></div></details></div>
+        <div class="faq-item"><details><summary>Why do some AI masks take longer to generate?</summary><div class="faq-answer"><p>AI masks are analyzed directly on your device, so processing time depends on device performance, photo resolution, and image complexity. Newer devices can usually complete the analysis faster.</p></div></details></div>
+        <div class="faq-item"><details><summary>Will my editing records remain after I delete LUMO?</summary><div class="faq-answer"><p>LUMO projects are stored locally on your device. Deleting LUMO may also delete projects and editing records that have not been exported, so export important photos before deleting the app.</p></div></details></div>
+      </section>
+
+      <section class="faq-category" aria-labelledby="purchase-title">
+        <h2 id="purchase-title">Subscriptions &amp; Purchases</h2>
+        <div class="faq-item"><details><summary>Why were premium features not unlocked after payment?</summary><div class="faq-answer"><p>If your purchase was completed successfully but premium features are still locked, open LUMO’s Settings and tap “Restore Purchases.” Also make sure the device is signed in to the same Apple Account used to purchase LUMO.</p></div></details></div>
+        <div class="faq-item"><details><summary>How do I cancel my LUMO subscription?</summary><div class="faq-answer"><p>LUMO subscriptions are managed by Apple. Go to System Settings → Apple Account → Subscriptions → LUMO, then choose to cancel. You can continue using unlocked premium features until the current subscription period ends.</p></div></details></div>
+        <div class="faq-item"><details><summary>How do I request a refund?</summary><div class="faq-answer"><p>Apple handles refunds for purchases and subscriptions made through the App Store. Visit Apple’s “Report a Problem” page, sign in with the Apple Account used for the purchase, select the relevant LUMO purchase, and submit a refund request. Apple decides whether a refund is approved.</p></div></details></div>
+        <div class="faq-item"><details><summary>Can I keep using my LUMO membership after changing devices?</summary><div class="faq-answer"><p>Yes. Sign in to the new device with the same Apple Account used to purchase LUMO, then go to Settings → Restore Purchases to restore your subscription benefits.</p></div></details></div>
+        <div class="faq-item"><details><summary>Will restoring purchases charge me again?</summary><div class="faq-answer"><p>No. Restore Purchases only checks existing purchases associated with your Apple Account; it does not create a new charge.</p></div></details></div>
+      </section>
+
+      <section class="faq-category" aria-labelledby="other-title">
+        <h2 id="other-title">Other</h2>
+        <div class="faq-item"><details><summary>Will LUMO be available for desktop?</summary><div class="faq-answer"><p>We plan to release a desktop version of LUMO. Please watch for future announcements about its release.</p></div></details></div>
+      </section>
+    </div>
+
+    <footer><a href="help-zh.html">中文</a></footer>
+  </main>
+</body>
+</html>
